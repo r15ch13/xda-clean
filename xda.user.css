@@ -1,0 +1,61 @@
+/* ==UserStyle==
+@name        xda-clean
+@version     1.0.0
+@description My small xda-developer theme
+@namespace   r15ch13
+@author      r15ch13
+@homepageURL https://github.com/r15ch13/xda-clean
+@supportURL  https://github.com/r15ch13/xda-clean/issues
+@updateURL   https://raw.githubusercontent.com/r15ch13/xda-clean/master/LICENSE/xda.user.css
+@license     Unlicense
+==/UserStyle== */
+
+.tb_widget_recent_list,
+.tb_widget_posts_big,
+.widget_title,
+.xda_suggested_apps,
+.w-social,
+.et_social_icons_container,
+.widget-1,
+.xda-post-related,
+.et_social_inline,
+.author_box,
+.hosted_by,
+.et_social_mobile_on,
+.f-links,
+.socialcount,
+.postbit-social,
+.postbit-userinfo-cell,
+.footer {
+  display: none !important;
+}
+
+#showthreadRankedThreads,
+#sidepanel,
+#footer {
+  display: none !important;  
+}
+
+.page {
+  margin: 0 auto;
+  width: 80em;
+}
+
+.post-first-post {
+  min-height: auto;
+}
+
+.post-button-left,
+.post-button {
+  padding: 2px !important;
+}
+.postbutton-row {
+  height:24px;
+  display: none !important;
+}
+.post_thanks_box_wrapper {
+  display: none;
+}
+.post-head-right {
+  float:right;
+}
